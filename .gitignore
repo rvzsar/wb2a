@@ -1,0 +1,33 @@
+# Cluade dev tools
+.claude/
+CLAUDE.md
+
+# Debug files
+*.log
+*.sh
+*.txt
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files (keep structure but ignore actual values)
+.env
+.env.local
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Deno cache (when local)
+.deno/
+deno.lock

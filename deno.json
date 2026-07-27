@@ -1,0 +1,19 @@
+{
+  "name": "wandb-openai-proxy",
+  "version": "1.0.0",
+  "exports": "./main.ts",
+  "tasks": {
+    "start": "deno run --allow-net --allow-env main.ts",
+    "dev": "deno run --allow-net --allow-env --watch main.ts",
+    "test": "deno test --allow-net --allow-env",
+    "fmt": "deno fmt",
+    "lint": "deno lint"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": false
+  },
+  "imports": {
+    "@std/": "https://deno.land/std@0.208.0/"
+  }
+}
